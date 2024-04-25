@@ -15,8 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.13.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "gatsby": "^2.24.91",
+    "gatsby-cli": "^2.12.113",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
   }
 }
