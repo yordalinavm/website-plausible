@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{ch4u:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a);t.default=e=>{let{cats:t}=e;return l.a.createElement(l.a.Fragment,null,l.a.createElement("h1",null,"Cats should not be fed sugary foods."),l.a.createElement("p",null,t))}}}]);
+//# sourceMappingURL=component---src-pages-cats-page-js-1ffba0af9d335f32597c.js.map
