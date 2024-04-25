@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -17,6 +18,7 @@
   "dependencies": {
     "gatsby": "^2.24.91",
     "gatsby-cli": "^2.12.113",
+    "gh-pages": "^6.1.1",
     "react": "16.8.3",
     "react-dom": "16.8.3"
   }
