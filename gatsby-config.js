@@ -7,5 +7,14 @@ module.exports = {
     title: `YesNo`,
     siteUrl: `https://yordalinavm.github.io/website-plausible/`,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: 'yordalinavm.github.io/website-plausible', // Add your Plausible domain here
+        proxyScript: 'https://plausible.io/js/script.js'
+      },
+    },
+
+  ],
 }
